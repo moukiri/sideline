@@ -18,13 +18,13 @@ class sideline():
             if self.exchange_rate < 4.8 and self.sales < 10000:
                 self.price = 0.06 * self.sales
 
-        if self.project == "gachapon": #通贩
+        if self.project == "gachapon": #扭蛋
             if self.exchange_rate > 4.8 :
                 self.price = 0.06 * self.sales
             if self.exchange_rate < 4.8 :
                 self.price = 0.055 * self.sales
 
-        if self.project == "online": #扭蛋
+        if self.project == "online": #通贩
             if self.exchange_rate > 4.8 :
                 self.price = 0.053 * self.sales
             if self.exchange_rate < 4.8 :
